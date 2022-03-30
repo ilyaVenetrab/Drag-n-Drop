@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "lib": [
+      "es5",
+      "es2015",
+      "dom"
+    ],
+    "paths": {},
+    "noEmitHelpers": true
+  },
+  "exclude": [
+  ],
+  "include": [
+    "./jest-setup.ts"
+  ]
+}
